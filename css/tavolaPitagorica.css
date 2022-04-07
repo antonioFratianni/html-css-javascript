@@ -1,0 +1,18 @@
+
+ .Tab {
+  border: 1px solid #cacdcd;
+  width:32px;
+  height:36px;
+  text-align:right;
+  color:navy;
+  font-weight:bold;
+  }
+ .Op {
+   background-color: navy;
+   border: 1px solid #191970;
+   width:32px;
+   height:36px;
+   color:white;
+   text-align:center;
+   font-weight:bold
+  }

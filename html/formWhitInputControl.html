@@ -1,0 +1,65 @@
+<html>
+
+<head>
+  <title>home page</title>
+</head>
+<link rel="stylesheet" href="../css/form.css">
+
+
+<body>
+  <div class="box">
+    <h1 align="center"> Form</h1>
+    <form role="form" method="post">
+
+      <div class="inputBox">
+        <input type="text" name="cognome" autocomplete="off" required maxlength="40">
+        <label>Cognome</label>
+      </div>
+
+      <div class="inputBox">
+        <input type="text" name="nome" autocomplete="off" required maxlength="30">
+        <label>Nome</label>
+      </div>
+
+      <div class="inputBox">
+        <input type="number" name="matricola" autocomplete="off" required min="0" max="1234567" maxlength="7">
+        <label>Matricola</label>
+      </div>
+
+      <div class="inputBox">
+        <input type="text" name="email" autocomplete="off" required maxlength="30">
+        <label>E mail</label>
+      </div>
+
+      <div class="inputBox">
+        <input type="text" name="telefono" autocomplete="off" required maxlength="16">
+        <label>Telefono</label>
+      </div>
+
+      <div class="inputBox">
+        <input type="text" name="telefono" autocomplete="on" required>
+        <label>Status
+        <datalist id="statusList">
+          <option>In corso</option>
+          <option>fuori corso</option>
+          <option>carriera in pausa</option>
+          <option>laureato</option>    
+      </datalist>     
+        </label>
+      </div>
+
+
+      <div class="inputBox">
+        <textarea id="richieste" name="richieste" rows="12" cols="60">
+          scrivi le tue richieste qui..
+        </textarea>
+
+        <input type="submit" name="register" value="register">
+
+
+    </form>
+  </div>
+
+</body>
+
+</html>

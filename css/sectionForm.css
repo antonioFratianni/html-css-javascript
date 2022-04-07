@@ -1,0 +1,54 @@
+.some-class {
+    width:200px;
+    padding:20px;
+  }
+
+  input[type=text] {
+    padding: 10px;
+    border-radius:10px;
+    margin:10px 0;
+    box-shadow:0 0 15px px rgba(0,0,0,0.06);
+  }
+
+  .spacer {
+    height: 20px;
+}
+
+body{
+    background-color:darkgray;
+}
+
+input[type=submit] {
+
+    appearance:none;
+    -webkit-appearance:none;
+  
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .mysection{
+    background: papayawhip;
+    padding: 20px;
+    width: 500px;
+    line-height: 1.7em;
+    border-style:groove;
+  }
+
+  .container{
+      display: flex;
+  }
+
+  h1{
+      text-align: center;
+  }
+
+  .containerform{
+      display: flex;
+      flex-direction: column;
+  }
